@@ -10,38 +10,65 @@
     <title>Document</title>
 </head>
 <body>
-    <div class= "top">
-    <h1>Bootstrap and JS/jQuery Worksheet</h1>
+    
+    <div class= "container-fluid">
+    <div class= "row">
+    <h1 class= "display-3">Bootstrap and JS/jQuery Worksheet</h1>
+    </div>
+   
+    <div class= "row">
+        <h2 class= "display-2">Infosys Class Work</h2>
     </div>
     
-    <h2>Infosys Class Work</h2>
-    <div class= "boxes">
-        <div class= "boxred"></div>
-        <div class= "boxblue"></div>
-        <div class= "boxgreen"></div>
-        
-       
+    <div class= "row boxesRow">
+        <div class= "col box1"></div>
+        <div class= "col box2"></div>
+        <div class= "col box3"></div>
     </div>
     
-    <h3>Change Buttons</h3>
-    <div class= "changebut">
-        <button class= "btn btn-info">Change Box 1</button>
-        <button class= "btn btn-info">Change Box 2</button>
-        <button class= "btn btn-info">Change Box 3</button>
-        <button class= "btn btn-primary">Change All</button>
+    <div class= "row changeButtonRow">
+        <h3 class= "display-4">Change Buttons</h3>
+    </div>
+    
+    <div class= "row">
+        <div class= "col">
+            <button class= "btn btn-info">Change Box 1</button>
+        </div>
+        <div class= "col">
+            <button class= "btn btn-info">Change Box 2</button>
+        </div>
+        <div class= "col">
+            <button class= "btn btn-info">Change Box 3</button>
+        </div>
+        <div class= "col">
+            <button class= "btn btn-primary">Change All</button>
+        </div>
         </div>
         
-        <h4>Hide Buttons</h4>
-    <div class= "hidebut">
-        <button class= "btn btn-info">Hide Box 1</button>
-        <button class= "btn btn-info">Hide Box 2</button>
-        <button class= "btn btn-info">Hide Box 3</button>
-        <button type="button" class="btn btn-warning">Hide All</button>
-    </div>
-    
-    <div class= "lastrow">
-    <button type="button" class="btn btn-danger">Reset Colors</button>
-    <button type="button" class="btn btn-success">Show All</button>
+        <div class= "row">
+            <h4 class= "display-5">hide Buttons</h4>
         </div>
+        
+    <div class= "row hideButtonRow">
+        <div class= "col">
+            <button class= "btn btn-info">Hide Box 1</button></div>
+            <div class= "col">
+                <button class= "btn btn-info">Hide Box 2</button>
+            </div>
+                <div class= "col">
+                    <button class= "btn btn-info">Hide Box 3</button>
+            </div>
+                
+            <div class= "col">
+                    <button type="button" class="btn btn-warning">Hide All</button>
+    </div>
+</div>
+    
+    <div class= "row finalRow">
+        <div class= "col"><button type="button" class="btn btn-danger">Reset Colors</button></div>
+    <div class= "col"></div>
+    <div class= "col"></div>
+    <div class= "col"><button type="button" class="btn btn-success">Show All</button></div>
+        </div></div>
 </body>
 </html>
